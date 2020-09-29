@@ -3,9 +3,14 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Header */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -21,7 +26,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -40,7 +44,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 * {
@@ -48,6 +51,8 @@ header h1 {
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Footer */
 
 footer {
     background: #fce138;
@@ -76,7 +81,7 @@ section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* Hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
