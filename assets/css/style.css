@@ -283,6 +283,19 @@ section {
     font-size: 17px;
 }
 
+/* Service Plan */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
 /* Reach Out */
 .contact {
     background: #024e76;
